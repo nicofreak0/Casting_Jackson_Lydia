@@ -9,7 +9,7 @@
 
             Console.WriteLine("Your Favorite Number is " + myFavNum);
 
-            Console.WriteLine("Do You Like Cats? (please enter 'true' or 'false'");
+            Console.WriteLine("Do You Like Cats? (please enter 'true' or 'false')");
             bool isTrue = Convert.ToBoolean(Console.ReadLine());
 
             Console.WriteLine($"It is {isTrue} that I like cats!");
